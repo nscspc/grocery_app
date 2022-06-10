@@ -1,0 +1,198 @@
+name: grocery
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0-182.1.beta <3.0.0"
+  # sdk: ">=2.12.0 <3.0.0"
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  #w The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+  # flutter_secure_storage:   
+  razorpay_flutter:
+
+  font_awesome_flutter:
+  # google_fonts:
+  firebase_core: ^1.17.0
+  flutter_secure_storage: ^5.0.2
+  google_fonts: ^2.3.2
+  firebase_auth: ^3.3.18
+  #^3.3.18
+  shared_preferences:
+  animated_theme_switcher:  
+  path_provider:
+  image_picker:
+
+  url_launcher: ^6.1.2
+  firebase_database: ^7.0.2
+
+  # shared_preferences: "<newest version>"
+  
+  #  cupertino_icons: ^0.1.3
+  # firebase_auth: ^0.18.0+1
+  # cloud_firestore: "^0.14.0+2"
+  # firebase_core: ^1.17.0
+  # firebase_core:
+  # firebase_core: ^1.2.0
+  # firebase_core: ^1.10.6
+  # firebase_auth: "^3.0.1"
+  # firebase_auth: 0.16.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/groceryimg.jpg
+    - assets/groceryimage.png
+    - assets/man.png
+    - assets/grocery_image.png
+    - assets/banana.png
+    - assets/apple.png
+    - assets/pomegranate.png
+    - assets/grapes.png
+    - assets/mango.png
+    - assets/papaya.png
+    - assets/tomato.png
+    - assets/potato.png
+    - assets/onion.png
+    - assets/cauliflower.png
+    - assets/broccoli.png
+    - assets/pea.png
+    - assets/garlic.png
+    - assets/turmeric.png
+    - assets/chilli.png
+    - assets/cuminseeds.png
+    - assets/coriander.png
+    - assets/blackpepper.png
+    - assets/oils.png
+    - assets/snacks.png
+    - assets/flour.png
+    - assets/dairy.png
+    - assets/souces.png
+    - assets/otheritems.png
+    - assets/orange.png
+    - assets/cherry.png
+    - assets/pineapple.png
+    - assets/kiwi.png
+    - assets/vegetablead.png
+    - assets/egglant.png
+    - assets/carrot.png
+    - assets/bellpepper.png
+    - assets/cucumber.png
+    - assets/cardamom.png
+    - assets/cinnamon.png
+    - assets/saffron.png
+    - assets/clove.png
+    - assets/spicesad.png
+    - assets/fruitsad.png
+    - assets/bananafinal.png
+    - assets/applefinal.png
+    - assets/pomegranatefinal.png
+    - assets/grapesfinal.png
+    - assets/mangofinal.png
+    - assets/papayafinal.png
+    - assets/orangefinal.png
+    - assets/cherryfinal.png
+    - assets/pineapplefinal.png
+    - assets/kiwifinal.png
+    - assets/tomatofinal.png
+    - assets/potatofinal.png
+    - assets/onionfinal.png
+    - assets/cauliflowerfinal.png
+    - assets/broccolifinal.png
+    - assets/peafinal.png
+    - assets/egglantfinal.png
+    - assets/carrotfinal.png
+    - assets/bellpepperfinal.png
+    - assets/cucumberfinal.png
+    - assets/useravtar.png
+    - assets/usermenu.png
+    - assets/cardamomfinal.png
+    - assets/cinnamonfinal.png
+    - assets/saffronfinal.png
+    - assets/clovefinal.png
+    - assets/garlicfinal.png
+    - assets/turmericfinal.png
+    - assets/chillifinal.png
+    - assets/cuminseedsfinal.png
+    - assets/corianderfinal.png
+    - assets/blackpepperfinal.png
+    - assets/moread.png
+    - assets/oilsfinal.png
+    - assets/snacksfinal.png
+    - assets/flourfinal.png
+    - assets/dairyfinal.png
+    - assets/soucesfinal.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
